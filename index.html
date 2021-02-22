@@ -14,7 +14,7 @@
         <h1>
             Formulário Dev
         </h1>
-        <form action="" id="info">
+        <form class="form" action="" id="info">
             <label form="name">Nome</label>
             <input type="text" id="name">
             <br> 
@@ -30,7 +30,16 @@
             <input type="checkbox" id="fullstack">
             <br>
             <br>
-            <label form="sobre">Sua Carreira</label>
+            <h3>Atividade</h3>
+            
+            <select id="job" name="job">
+                <option value="student">Estudante</option>
+                <option value="jobing">Trabalhando</option>
+                <option value="freelancer">Free-lancer</option>
+            </select>
+            <br>
+            <br>
+            <label form="sobre">Sobre você</label>
             <br>
             <textarea name="sobre" id="" cols="80" rows="10"></textarea>
             <br>
@@ -39,5 +48,4 @@
     </div>
     <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
