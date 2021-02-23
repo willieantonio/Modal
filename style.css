@@ -79,5 +79,14 @@ textarea {
     background-color: #1853f5d5;
     font-size: 18px;
     padding: 8px;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem;    
+}
+
+#reset{
+    width: 100px;
+    color: white;
+    background-color: #1853f5d5;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 0.5rem;   
 }

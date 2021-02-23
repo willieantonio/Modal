@@ -14,14 +14,14 @@
         <h1>
             Formulário Dev
         </h1>
-        <form class="form" action="" id="info">
+        <form name="infoDev" action="#" id="infoDev" onSubmit="require(this)">
             <label form="name">Nome</label>
-            <input type="text" id="name">
+            <input type="text" id="name" name="name">
             <br> 
             <br>
             <label for="email">Email</label> 
             <input type="email" id="email" name="email">          
-            <h3>Area de Atuação</h3>
+            <h3 id="acting">Area de Atuação</h3>
             <label form="frontend">Front-end</label>
             <input type="checkbox" id="frontend">
             <label form="backend">Back-end</label>
@@ -32,7 +32,8 @@
             <br>
             <h3>Atividade</h3>
             
-            <select id="job" name="job">
+            <select id="job" name="job" value="jobe">
+                <option value=""></option>
                 <option value="student">Estudante</option>
                 <option value="jobing">Trabalhando</option>
                 <option value="freelancer">Free-lancer</option>
@@ -43,7 +44,8 @@
             <br>
             <textarea name="sobre" id="" cols="80" rows="10"></textarea>
             <br>
-            <button type="submit" id="enviar">Enviar</button>
+            <button type="submit" onclick="Enviar()" id="enviar">Enviar</button>
+            <button type="reset" onclick="" id="reset">Redefinir</button>
         </form>
     </div>
     <script type="text/javascript" src="./script.js"></script>
