@@ -19,7 +19,7 @@
             <input type="text" id="name" name="name">
             <br> 
             <br>
-            <label for="email">Email</label> 
+            <label form="email">Email</label> 
             <input type="email" id="email" name="email">          
             <h3 id="acting">Area de Atuação</h3>
             <label form="frontend">Front-end</label>
@@ -32,11 +32,11 @@
             <br>
             <h3>Atividade</h3>
             
-            <select id="job" name="job" value="jobe">
-                <option value=""></option>
-                <option value="student">Estudante</option>
-                <option value="jobing">Trabalhando</option>
-                <option value="freelancer">Free-lancer</option>
+            <select id="job" name="job">
+                <option name="job" value=""></option>
+                <option name="job" value="student">Estudante</option>
+                <option name="job" value="jobing">Trabalhando</option>
+                <option name="job" value="freelancer">Freelancer</option>
             </select>
             <br>
             <br>
@@ -44,8 +44,8 @@
             <br>
             <textarea name="sobre" id="" cols="80" rows="10"></textarea>
             <br>
-            <button type="submit" onclick="Enviar()" id="enviar">Enviar</button>
-            <button type="reset" onclick="" id="reset">Redefinir</button>
+            <button type="submit" onclick="enviar" id="enviar">Enviar</button>
+            <button type="reset" onclick="recharge()" id="reset">Redefinir</button>
         </form>
     </div>
     <script type="text/javascript" src="./script.js"></script>
